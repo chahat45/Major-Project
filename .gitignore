@@ -1,28 +1,10 @@
-# Python
+# Python tools and local runtime
 __pycache__/
 *.pyc
 .venv/
-venv/
 .env
 .env.*
-
-# Node.js
-node_modules/
-dist/
-build/
-
-# Datasets and model weights
-*.pt
-*.pth
-*.pkl
-*.joblib
-data/raw/
-data/processed/
-datasets/
-runs/
-*.zip
-
-# Temporary files
-.DS_Store
 *.log
-.ipynb_checkpoints/
+# Temporary browser-test outputs
+**/_final_queue.csv
+**/_route_queue.csv

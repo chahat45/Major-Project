@@ -1,4 +1,5 @@
-id,name,latitude,longitude,risk_level,risk_score,timestamp,note,segment_id
-EXAMPLE-001,Illustrative segment A,30.9106,75.8461,Normal,18,2026-10-31 09:10,Synthetic example only,example-A
-EXAMPLE-002,Illustrative segment A,30.9093,75.8504,Moderate,51,2026-10-31 09:12,Synthetic example only,example-A
-EXAMPLE-003,Illustrative segment B,30.9076,75.8551,Severe,88,2026-10-31 09:15,Synthetic example only,example-B
+id,name,latitude,longitude,risk_level,risk_score,timestamp,note,segment_id,run_id,imu_score,vision_score,context_score,gps_status,imu_status,camera_status,rain_state,defect_type,model_confidence
+EX-001,Example Segment Alpha,30.9106,75.8461,Normal,24,2026-10-30 10:00,Illustrative example only,SEG-A,RUN-01,20,25,10,available,available,available,DRY,None,88
+EX-002,Example Segment Beta,30.9093,75.8504,Severe,84,2026-10-30 10:02,Illustrative example only,SEG-B,RUN-01,80,91,11,available,available,available,DAMP,Pothole,92
+EX-003,Example Segment Alpha,30.9108,75.8464,Moderate,45,2026-10-31 10:00,Illustrative example only,SEG-A,RUN-02,42,50,12,available,available,available,DRY,Crack,82
+EX-004,Example Segment Beta,30.9095,75.8506,Moderate,52,2026-10-31 10:02,Illustrative example only,SEG-B,RUN-02,50,56,12,available,available,available,DAMP,Surface anomaly,85

@@ -5,3 +5,203 @@
 body{background:var(--bg);color:var(--ink)}.sidebar{background:#142943;border-right:1px solid #23415f}.brand-icon{background:#234768;color:#e4f1ff;border-color:#395f7b}.brand strong{color:#fff}.brand strong span{color:#93c7ed}.brand small{color:#afc6dc}.menu-caption{color:#a9bfd7}.nav{color:#c4d4e4}.nav.active{color:#fff;background:#28527a;border-color:#4678a3}.source-card{background:#1c3855;border-color:#395575}.source-top{color:#fff}.source-card p{color:#c6d4e5}.upload{background:#e8f1fa;color:#173a5e}.sample{color:#c7d7e9}.side-footer{color:#d2e0ee}.side-footer span{color:#adc0d1}
 .main{max-width:1920px}.metric,.panel,.map-card,.table-panel{background:#fff;border:1px solid #dce4ed;border-radius:11px;box-shadow:0 3px 18px rgba(24,47,73,.045)}.metric{background:#fff;border-top:3px solid #2e628d}.metric-head,.metric-foot{color:#667a92}.metric-value{color:#14263e}.subtitle,.panel-head p,.table-header p{color:#66778a}.eyebrow,.section-kicker{color:#386b96}h1 span{color:#285f8d}.tag{background:#fff7e8;color:#875d18;border-color:#e6d4ae}.export,#fitBtn,select{background:#f8fafc;color:#24425f;border-color:#ced9e5}.map-wrap,.leaflet-container{background:#e4ebf1}.map-overlay{background:#ffffffed;border-color:#d0dce9;box-shadow:0 7px 25px #233f5c24}.map-overlay b,.map-overlay div{color:#25405a}.map-overlay small{color:#60748a}.map-bottom,.table-bottom{color:#61748c}.donut-inner{background:#fff!important}.donut-inner strong{color:#14263e}.donut-inner span{color:#708198}.detail-note{color:#506985}.governance-panel{display:grid;grid-template-columns:1fr 1.3fr;gap:30px;margin-top:18px;padding:25px 28px;border:1px solid #dce4ed;border-left:4px solid #2c608b;border-radius:10px;background:#fff}.governance-panel h2{margin:9px 0}.governance-panel p{margin:0;color:#617187;line-height:1.7;font-size:12px;max-width:580px}.governance-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.governance-steps>div{padding:13px;border:1px solid #e0e8f0;background:#f8fafc;border-radius:8px}.governance-steps b{color:#386b96;font-size:11px;display:block;margin-bottom:9px}.governance-steps span{font-size:12px;font-weight:700;display:block;color:#203d59}.governance-steps small{font-size:10px;color:#6c7d91;display:block;line-height:1.5;margin-top:6px}
 @media(max-width:1100px){.governance-panel{grid-template-columns:1fr}}@media(max-width:680px){.governance-steps{grid-template-columns:1fr}}
+/* RoadScope formal feature extension */
+.feature-layout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:20px}.feature-card{background:#fff;border:1px solid #e1e8f0;border-radius:15px;padding:23px;box-shadow:0 6px 20px rgba(28,48,75,.035);min-width:0;scroll-margin-top:24px}.feature-card.wide{grid-column:1/-1}.feature-heading{display:flex;align-items:center;justify-content:space-between;gap:15px}.feature-heading h2{font-size:18px;margin:6px 0}.feature-tag{font-size:10px;font-weight:800;color:#50718c;background:#edf4f9;border:1px solid #dceaf4;padding:7px 9px;border-radius:6px;white-space:nowrap}.feature-caption,.disclaimer,.health-foot{color:#718399;font-size:12px;line-height:1.65}.explain-bars{margin:19px 0}.factor{margin-bottom:13px}.factor-top{display:flex;justify-content:space-between;gap:12px;font-size:12px;color:#506176;margin-bottom:6px}.factor-track{height:8px;border-radius:5px;background:#edf2f6;overflow:hidden}.factor-track div{height:100%;border-radius:5px}.reason-box{background:#f3f7fb;border-left:3px solid #326a9f;border-radius:5px;padding:14px;color:#344d66;font-size:12px;line-height:1.7}.health-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin:19px 0}.health-cell{border:1px solid #e2eaf1;border-radius:9px;padding:12px;display:grid;gap:5px;font-size:11px;color:#667d92}.health-cell b{font-size:13px;color:#243f59}.health-cell small{font-size:10px}.health-indicator{width:9px;height:9px;display:inline-block;border-radius:50%;background:#a9b8c6}.health-indicator.present{background:#228e72}.health-indicator.absent{background:#d5a44b}.cell-sub{display:block;color:#8392a3;margin-top:4px}.replay-toolbar,.report-actions,.compare-controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:18px 0}.replay-toolbar input[type=range]{flex:1;min-width:150px;accent-color:#245a89}.primary-btn,.secondary-btn{cursor:pointer;border:1px solid #255782;border-radius:7px;padding:11px 15px;font-weight:700;font-size:12px}.primary-btn{color:#fff;background:#225682}.secondary-btn{color:#2c587a;background:#fff;border-color:#c4d4e3}.replay-count{min-width:52px;font-size:12px;color:#677c91}.replay-summary{display:flex;gap:14px;align-items:center;flex-wrap:wrap;padding:14px 17px;border-radius:8px;background:#f3f7fa;color:#45627e;font-size:12px}.replay-summary strong{color:#1c405c}.compare-controls label{font-size:11px;font-weight:750;color:#52697e;display:grid;gap:6px}.compare-controls select{padding:10px 12px;min-width:165px;border:1px solid #d6e2ed;border-radius:6px;background:#fff;color:#344a60}.compare-result{margin-top:16px;font-size:12px;color:#536a81}.compare-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.compare-cards>div{padding:15px;border:1px solid #e2eaf3;border-radius:9px;background:#f8fafc}.compare-cards small,.compare-cards strong{display:block}.compare-cards small{font-size:10px;color:#6a8094}.compare-cards strong{font-size:22px;color:#244b71;margin:9px 0}.compare-cards p{margin:0}.feature-card table th{white-space:nowrap}.feature-card table td{font-size:12px}.report-actions span{font-size:12px;color:#6e8195}@media(max-width:1000px){.feature-layout{grid-template-columns:1fr}.compare-cards{grid-template-columns:1fr}}@media(max-width:600px){.feature-card{padding:15px}.health-grid{grid-template-columns:1fr}.feature-heading{align-items:flex-start;flex-wrap:wrap}}
+
+/* Objective 2 provenance integration additions — retain existing RoadScope visual language */
+.upload{border:0;width:100%;margin-top:9px;text-align:center;display:block}
+.upload-alt{background:#345577;color:#eff7ff;border:1px solid #64809c;font-size:11px}
+.upload:disabled{opacity:.65;cursor:wait}
+.source-hint{display:block;color:#c8d8e6;line-height:1.5;font-size:10px;margin-top:10px}
+.data-warning{border:1px solid #d9b37d;background:#fff5e7;color:#7a4519;padding:14px 17px;border-left:5px solid #bb7826;border-radius:8px;margin:-7px 0 19px;font-size:12px;line-height:1.65;font-weight:650}
+[hidden]{display:none!important}
+.grey-bg{background:#8896a7}
+.risk-badge.Not-assessed{background:#e9edf2;color:#576779}
+.risk-badge.Severe{white-space:nowrap}
+.provenance-summary{margin-top:12px;border:1px solid #dfe8f0;background:#f7fafc;color:#425e76;font-size:11px;line-height:1.65;padding:12px;border-radius:7px;overflow-wrap:anywhere}
+.evidence-metadata{display:grid;gap:9px;margin-top:13px;font-size:12px;color:#445c73;line-height:1.6}
+.evidence-metadata>div:not(.demo-callout){border:1px solid #e6edf3;background:#f9fbfd;border-radius:7px;padding:10px 12px}
+.evidence-metadata .limitations{background:#fffaf0!important;border-color:#ecdcc0!important}
+.evidence-metadata .limitations ul{padding-left:17px;margin:8px 0 0}
+.evidence-metadata .limitations li{margin:4px 0}
+.demo-callout{padding:13px 14px;border:1px solid #deaf64;border-left:4px solid #b97b26;background:#fff5e6;color:#79471e;border-radius:7px;line-height:1.6;font-size:12px}
+.demo-callout strong{display:block;margin-bottom:5px}
+.demo-callout p{margin:0}
+.demo-mini{background:#fff0d1;color:#80541e;border:1px solid #e2bf81;border-radius:4px;font-weight:800;padding:4px 6px;font-size:10px}
+.replay-run-label{font-size:11px;font-weight:700;color:#52697e;display:grid;gap:5px}
+.replay-run-label select{padding:10px 12px;min-width:145px;border:1px solid #d6e2ed;border-radius:6px;background:#fff;color:#344a60}
+button:disabled,select:disabled{opacity:.5;cursor:not-allowed}
+@media(max-width:760px){.sidebar .source-card{display:block}.sidebar .source-card .source-hint{font-size:10px}}
+.detail-note{background:#f3f7fb;color:#405b72;border-left-color:#447ba5;overflow-wrap:anywhere}
+
+/* Final viva demo: subtle mode switcher, no change to established dashboard layout */
+.presentation-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;border:1px solid #d6e2ed;border-left:4px solid #2a5c89;background:#fff;padding:13px 17px;margin:-4px 0 20px;border-radius:9px;box-shadow:0 3px 16px #23416b08}
+.presentation-caption{display:grid;gap:4px}.presentation-caption b{letter-spacing:.07em;font-size:11px;color:#264c72}.presentation-caption span{font-size:11px;color:#71859c}.presentation-controls{display:flex;flex-wrap:wrap;gap:7px;align-items:center}.presentation-controls button{cursor:pointer;border-radius:7px;font-size:11px;font-weight:750;padding:9px 11px;border:1px solid #cad8e6}.presentation-primary{background:#275e8e;color:#fff;border-color:#275e8e!important}.presentation-secondary{background:#e7f0f7;color:#245276}.presentation-link{background:#fff;color:#386486}.presentation-controls button:focus-visible{outline:3px solid #77b8e7;outline-offset:2px}#presentationStatus{font-size:10px;color:#647b91;flex-basis:100%}#mapTileNotice{position:absolute;z-index:900;bottom:8px;left:10px;background:#fff9e6;color:#8d6129;border:1px solid #dfcda6;border-radius:5px;padding:7px 10px;font-size:10px;max-width:75%;pointer-events:none}.offline-coordinate-map{position:absolute;inset:0;width:100%;height:100%;display:block;background:#e6eef5}.offline-zoom{position:absolute;right:13px;top:12px;display:flex;flex-direction:column;border:1px solid #d4e0eb;box-shadow:0 1px 7px #2b48672b;border-radius:4px;overflow:hidden}.offline-zoom button{width:32px;height:32px;background:white;color:#2a4e6e;border:none;border-bottom:1px solid #e1e6ee;cursor:pointer;font-weight:800;font-size:18px}.offline-zoom button:hover{background:#eef4fa}#mapFallback{position:absolute;top:8px;left:50%;transform:translateX(-50%);right:auto;max-width:400px;background:#fff9e6eF;color:#7b572b;border:1px solid #d9c59d;border-radius:5px;padding:7px 11px;text-align:center;z-index:901;pointer-events:none}
+@media(max-width:760px){.presentation-bar{display:block}.presentation-controls{margin-top:12px}.presentation-controls button{flex:1}.presentation-bar #presentationStatus{display:block;margin-top:10px}}
+
+/* FINAL MAP CONTROLS: street basemap is independent of geotagged ML results */
+.map-provider-bar{display:flex;align-items:end;gap:15px;flex-wrap:wrap;padding:11px 20px;border-top:1px solid #e1e8ef;border-bottom:1px solid #e1e8ef;background:#f8fafc}
+.map-provider-field,.map-provider-key{display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.map-provider-field label,.map-provider-key label{font-size:10px;letter-spacing:1.1px;font-weight:750;color:#586e83}
+.map-provider-field select{padding:8px 10px;border:1px solid #d0dce8;background:#fff;color:#24405e;font-size:11px;border-radius:6px;max-width:245px}
+.map-provider-key input{padding:9px 10px;max-width:190px;border:1px solid #c9d8e5;border-radius:6px;background:#fff;color:#24405e;font-size:11px}
+.map-provider-key button{padding:8px 10px;border-radius:6px;background:#234d75;color:#fff;border:1px solid #234d75;font-size:11px;font-weight:700}
+.map-provider-key a{color:#235a8d;font-size:11px;text-decoration:underline}
+#basemapStatus{font-size:11px;color:#627a91;line-height:1.45;flex:1;min-width:210px;text-align:right}
+.map-wrap{background:#dce7f0}
+.map-overlay{box-shadow:0 5px 25px #142f4a22}
+.map-bottom{line-height:1.55;gap:15px}
+@media(max-width:950px){#basemapStatus{text-align:left;flex-basis:100%}}
+@media(max-width:760px){.map-provider-bar{padding:12px}.map-provider-field select{max-width:100%}.map-provider-key input{max-width:165px}.map-bottom{flex-wrap:wrap}}
+
+/* Final submission integration: provenance-first YOLO gallery and simulated telemetry. */
+#visionEvidencePanel[hidden]{display:none!important}
+.yolo-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:18px 0 10px}
+.yolo-pair figure{margin:0;background:#f1f5f9;border:1px solid #dde5ee;border-radius:12px;overflow:hidden}
+.yolo-pair img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:contain;background:#e9eef4}
+.yolo-pair figcaption{font-size:12px;line-height:1.5;padding:12px 14px;color:#334e68;font-weight:600}
+.evidence-image-note{background:#f5f8fc;border-left:3px solid #39749a;padding:13px 15px;border-radius:6px;font-size:12px;line-height:1.7;color:#36485d}
+.evidence-image-note a{color:#17629b;font-weight:700}
+.telemetry-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:12px 0}
+.telemetry-card{padding:13px 12px;border:1px solid #dce5ef;background:#f6f9fd;border-radius:10px;min-width:0}
+.telemetry-card small{display:block;color:#637891;font-size:11px;line-height:1.4;margin-bottom:5px}
+.telemetry-card strong{display:block;color:#16364e;font-size:15px;overflow-wrap:anywhere}
+.telemetry-placeholder{padding:16px;color:#66768a;background:#f5f8fd;border:1px dashed #b8c8d8;border-radius:9px;grid-column:1/-1}
+#sensorTelemetryTag{color:#8a4d20;background:#fff1dc}
+@media(max-width:1000px){.telemetry-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.yolo-pair{grid-template-columns:1fr}.telemetry-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* RoadScope 2026 — restrained professional dark-slate visual system.
+   Increases readability without changing the existing layout or features. */
+:root{
+  --bg:#0e1723;--panel:#172435;--panel2:#1d2d40;--line:#304258;
+  --muted:#b2c0d0;--ink:#edf4fb;--cyan:#8bbce4;
+  --green:#35c992;--orange:#edb65b;--red:#f17a86;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 'DM Sans',Arial,sans-serif}
+.shell{min-height:100vh}
+.sidebar{width:276px;padding:28px 18px;background:#0b1522;border-color:#293a4d}
+.brand{margin:0 7px 38px}.brand strong{font-size:23px;letter-spacing:-.5px}
+.brand strong span{color:#a3d1ee}.brand small{font-size:10px;letter-spacing:1.45px}
+.brand-icon{background:#233d55;border-color:#395870;color:#b7ddf5}
+.menu-caption{font-size:11px;color:#93aac0;letter-spacing:1.3px}
+.menu-caption.second{margin-top:28px}
+.nav{font-size:21px;color:#b3c5d5;padding:12px 13px;gap:13px}
+.nav span{font-size:15px;font-weight:550}.nav.active{background:#213951;color:#f5fbff;border-color:#365772}
+.source-card{background:#142438;border-color:#30465c;padding:15px}
+.source-field-title{display:block;color:#9eb4c9;font-weight:800;letter-spacing:1.1px;font-size:11px;margin-bottom:8px}
+.dataset-select{display:block;width:100%;min-width:0;background:#233a51;color:#f3f8ff;border:1px solid #47708c;padding:11px 9px;font-size:13px;font-weight:650;margin-bottom:13px;white-space:normal}
+.source-top{font-size:11px;color:#e8f1fa;letter-spacing:.6px}
+.source-card p{color:#b6c7d7;font-size:13px;line-height:1.55;margin:9px 0 13px}
+.source-card .upload{background:#223b52;color:#dcecf8;border:1px solid #416078;margin:7px 0;padding:10px;font-size:12px;line-height:1.25;border-radius:7px}
+.source-card .upload:hover{background:#2c4c67}
+.source-hint{display:block;color:#90a7bc;font-size:11px;line-height:1.5;margin-top:8px;overflow-wrap:anywhere}
+.side-footer{color:#9fb6cb;font-size:11px}.side-footer span{color:#8ba4ba}
+.main{max-width:none;padding:31px 34px 44px}
+header{margin-bottom:24px;align-items:start}.eyebrow,.section-kicker{font-size:11px;letter-spacing:1.5px;color:#8cb9db}
+h1{font-size:37px;line-height:1.19;margin:8px 0 9px}h1 span{color:#a4cde9}h2{font-size:22px;line-height:1.25;letter-spacing:-.4px}
+.subtitle,.panel-head p,.table-header p{font-size:14px;color:#a7b9ca;line-height:1.55}
+.tag{background:#243747;color:#e4c48c;border-color:#53616b;font-size:11px;letter-spacing:.5px}
+.export,#fitBtn,select{background:#233649;color:#e8f1fa;border:1px solid #435a72;font-size:13px}
+.export{font-size:13px;padding:11px 13px}
+.metric,.panel,.map-card,.table-panel,.feature-card,.governance-panel{background:#172435;border:1px solid #2e4055;border-radius:13px;box-shadow:0 7px 30px #040c1640}
+.metric{background:linear-gradient(135deg,#1d3045,#182638);padding:20px 21px;border-top:2px solid #6c9cbf}
+.metric-head{font-size:11px;color:#bdcad9;letter-spacing:1.05px}.metric-foot{font-size:12px;color:#a5b7c9}
+.metric-value{font-size:40px;color:#eff7ff;margin:11px 0 6px}
+.workspace{grid-template-columns:minmax(0,1.95fr) minmax(295px,.85fr)}
+.panel-head{padding:23px}.map-wrap{height:490px;background:#243349}
+.leaflet-container{background:#203046}.map-overlay{background:#132333ed;border:1px solid #476078;width:224px;padding:17px}
+.map-overlay b{font-size:12px;color:#d8e6f5}.map-overlay div{font-size:13px;color:#d7e5f3}
+.map-overlay small{font-size:11px;color:#b5c6d7}
+.map-bottom{color:#adbed0;font-size:12px;line-height:1.6;padding:14px 19px}
+.map-provider-bar{background:#1c2d41;border-color:#324b64}.map-provider-field label,.map-provider-key label{color:#a7bfd4;font-size:11px}
+.map-provider-field select,.map-provider-key input{background:#263b51;border-color:#42617a;color:#ecf3f9;font-size:13px}
+.map-provider-key button{background:#315a79;border-color:#416f91;font-size:13px}.map-provider-key a{color:#a7d9fb;font-size:12px}
+#basemapStatus{color:#9fb4c9;font-size:12px}
+#mapTileNotice,#mapFallback{background:#203144f0;color:#fff0d1;border-color:#896d43;font-size:12px}
+.panel{padding:22px}.donut-inner{background:#172435}.donut-inner strong{color:#f4faff}.donut-inner span{color:#adbed0;font-size:11px}
+.dist-list>div{border-color:#304258;color:#d7e2ed;font-size:14px;padding:11px 0}
+.detail>p{color:#aec0cf;font-size:13px}.detail-grid small{color:#9ab0c4;font-size:11px}.detail-grid b{color:#f3f8fc;font-size:14px}
+.detail-note{background:#22384d;color:#d6e1ec;border-color:#7caacf;font-size:13px;line-height:1.6}
+.provenance-summary{color:#bacbdb;line-height:1.6;font-size:12px}
+.table-header{padding:22px}#searchBox{background:#22354a;border-color:#3b566e;color:#f1f8fc;font-size:14px}#searchBox::placeholder{color:#9cb1c3}
+th{background:#203248;color:#b7cadc;font-size:11px;letter-spacing:.8px;padding:14px 18px}
+td{font-size:14px;color:#cbd9e6;border-color:#2a3e53;padding:14px 18px}td:first-child{color:#f0f7ff}
+.risk-badge{font-size:12px}.risk-badge.Normal{background:#173e39;color:#5be1af}.risk-badge.Moderate{background:#4c3c28;color:#f6c57a}.risk-badge.Severe{background:#4e303e;color:#ff9aa1}.risk-badge.Not-assessed{background:#3a4350;color:#c7d2dd}
+.inspect{color:#a8dafa;font-size:13px}.table-bottom{font-size:12px;color:#9cafc2}
+.feature-card{padding:24px}.feature-heading h2{font-size:21px}.feature-tag{background:#213951;border-color:#3a5871;color:#b9d7ee;font-size:11px}
+.feature-caption,.disclaimer,.health-foot{color:#bdcbda;font-size:13px;line-height:1.7}
+.factor-top{font-size:14px;color:#d5e2ee}.factor-track{background:#344659}
+.reason-box,.replay-summary,.compare-cards>div,.evidence-image-note{background:#22364a;color:#d7e4f0;border-color:#4c7190;font-size:14px}
+.health-cell,.telemetry-card{background:#1d3044;border-color:#375169;color:#c7d6e3;font-size:13px}
+.health-cell b,.telemetry-card strong{color:#f0f6fd;font-size:15px}.health-cell small,.telemetry-card small{color:#a8bfd3;font-size:12px}
+.replay-summary strong,.compare-cards strong{color:#f1f8ff}.compare-controls label{color:#c7d7e4;font-size:13px}
+.compare-controls select{background:#24384e;color:#eef5fb;border-color:#466077;font-size:13px}
+.replay-count{color:#c2d2e1;font-size:13px}.compare-result{color:#becddd;font-size:13px}
+.primary-btn{background:#3d7299;border-color:#528aac;color:#fff;font-size:14px}.secondary-btn{background:#243a51;color:#dcedfa;border-color:#4b6881;font-size:14px}
+.feature-card table td{font-size:13px}.report-actions span{color:#c1d0df;font-size:13px}
+.yolo-pair figure{background:#1e3145;border-color:#3a536b}.yolo-pair img{background:#223449}
+.yolo-pair figcaption{color:#d5e4f2;font-size:14px}
+.evidence-image-note a{color:#9acffc}.telemetry-placeholder{background:#243449;color:#c3d3df;border-color:#4c6278}
+#sensorTelemetryTag{background:#493a2a;color:#ffd39a}
+.data-warning{margin:0 0 18px;background:#352c24;color:#ffdda4;border:1px solid #776044;border-left:4px solid #d5a15b;font-size:13px;line-height:1.65;font-weight:550}
+.demo-callout{background:#352c24!important;color:#ffe3ae!important;border-color:#b59057!important}
+.governance-panel{background:#172435!important;color:#d5e4f0!important}.governance-panel p,.governance-panel small{color:#adbed0!important}
+#reportInfo{color:#bad0e1}footer{font-size:12px;color:#90a5bc}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid #b6d8ee;outline-offset:2px}
+@media(max-width:1220px){.sidebar{width:242px}.main{padding:25px}.workspace{grid-template-columns:1fr}.right-column{display:grid;grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.sidebar{width:auto;position:static;height:auto;display:block}.sidebar .source-card{display:block}.sidebar .nav,.sidebar .menu-caption,.side-footer{display:none}.main{padding:15px}h1{font-size:29px}.metric-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.workspace,.right-column{display:block}.map-wrap{height:445px}.map-overlay{width:186px}.header-actions{flex-wrap:wrap}}
+
+/* Explicitly override an earlier !important light-theme donut centre. */
+.donut-inner{background:#172435!important}
+.donut-inner strong{color:#f4faff!important}
+.donut-inner span{color:#afc3d6!important}
+
+.model-evaluation-strip{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;margin:16px 0 10px}
+.model-evaluation-strip>div{background:#20354a;border:1px solid #3b566c;border-radius:9px;padding:14px;min-width:0}
+.model-evaluation-strip small{display:block;font-size:11px;letter-spacing:.6px;color:#a8c4da;font-weight:700;line-height:1.4}
+.model-evaluation-strip strong{display:block;font:700 25px 'Space Grotesk',sans-serif;color:#f0f7fc;margin-top:7px}
+@media(max-width:830px){.model-evaluation-strip{grid-template-columns:1fr 1fr}}
+
+/* Presentation-quality information hierarchy: source provenance is explicit but non-intrusive. */
+body{font-size:17px;line-height:1.56}
+.nav span{font-size:16px}
+.metric-value{font-size:43px}
+h2{font-size:23px}
+.subtitle,.panel-head p,.table-header p{font-size:15px}
+.feature-caption,.health-foot{font-size:14px}
+.data-warning{font-size:13px;font-weight:650;color:#c9d9e7;background:#1d3245;border:1px solid #36536e;border-left:3px solid #74a7d2;padding:10px 15px;margin-bottom:18px;border-radius:7px}
+.source-details{margin-top:14px;padding:11px 12px;border:1px solid #355069;border-radius:9px;background:#1d3144;color:#c8d9e8}
+.source-details summary,.provenance-expand summary{font-size:13px;font-weight:700;cursor:pointer;color:#d7e9f9}
+.source-details p{font-size:12px;line-height:1.6;color:#b8ccdc;margin:10px 0 0}
+.provenance-expand{margin-top:12px;border:1px solid #38546d;background:#1b2d40;border-radius:9px;padding:12px 14px}
+.provenance-expand summary{font-size:14px}
+.provenance-body{display:grid;gap:12px;padding:14px 2px 0;font-size:13px;line-height:1.6}
+.provenance-body .limitations{max-height:260px;overflow:auto}
+.source-pill{display:inline-block;padding:7px 10px;background:#2b4054;border:1px solid #4c6680;border-radius:6px;color:#caddeb;font-size:12px;font-weight:650}
+#dataWarning:empty{display:none}
+#visionEvidencePanel .evidence-image-note{margin-top:14px}
+
+/* Modern dashboard metrics with strong numerical legibility. */
+.metric-value{font-family:"Space Grotesk",Arial,sans-serif;font-variant-numeric:tabular-nums;font-weight:700;letter-spacing:-1.4px}
+
+/* Observation register improvements (2 Nov 2026). */
+.detail{flex:0 0 auto}
+.detail-grid{margin-bottom:8px}
+.observation-filters{display:flex;gap:12px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+.date-filter-label{display:flex;align-items:center;gap:10px;color:#b8cadc;font-size:13px;font-weight:650;white-space:nowrap}
+#dateFilter{min-width:153px;padding:11px 12px;background:#22354a;border:1px solid #3b566e;color:#f0f8fe;font-size:14px}
+#searchBox{min-width:230px}
+#detailTime{font-size:14px;word-break:normal}
+.table-panel td:nth-child(5){white-space:nowrap;font-variant-numeric:tabular-nums;color:#dce8f5}
+.table-panel td:nth-child(2){white-space:nowrap;font-variant-numeric:tabular-nums}
+.inspect{display:inline-block;padding:7px 11px;background:#223a50;border:1px solid #496b87;border-radius:6px;color:#c1e5fc;font-size:13px;white-space:nowrap;cursor:pointer}
+.inspect:hover{background:#2d506e}
+@media(max-width:760px){.observation-filters{width:100%;justify-content:flex-start}.date-filter-label{width:100%;justify-content:space-between}#searchBox{width:100%}}
+
+/* Mini car advances by recorded waypoint during Journey Replay. */
+.roadscope-replay-car-icon{background:transparent!important;border:none!important;pointer-events:none!important}
+.roadscope-car-body{width:42px;height:46px;display:flex;align-items:center;justify-content:center;transform-origin:center center;filter:drop-shadow(0 3px 4px rgba(0,0,0,.65));transition:transform .22s ease-out}
+.roadscope-car-body svg{display:block;overflow:visible}
+.offline-vehicle{filter:drop-shadow(0 2px 3px #0008);pointer-events:none}

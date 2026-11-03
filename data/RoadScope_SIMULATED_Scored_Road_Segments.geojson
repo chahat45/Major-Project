@@ -1,0 +1,3100 @@
+{
+  "type": "FeatureCollection",
+  "name": "SIMULATION ONLY - Ludhiana area connectors, NOT surveyed roads",
+  "provenance": {
+    "synthetic": true,
+    "source": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+    "geometry": "virtual coordinates connected in time order; NOT map-matched to streets",
+    "coordinate_reference_system": "WGS84 EPSG:4326 (lon,lat)",
+    "risk_score": "experimental heuristic, NOT ground truth or accuracy"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "SIM-A-PASS-02:SIM-A-SEG-01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8419956,
+            30.9065052
+          ],
+          [
+            75.8423611,
+            30.9066069
+          ],
+          [
+            75.8427289,
+            30.9067016
+          ],
+          [
+            75.8431046,
+            30.9068036
+          ],
+          [
+            75.8434563,
+            30.9068965
+          ],
+          [
+            75.8438287,
+            30.9069999
+          ],
+          [
+            75.8442009,
+            30.90709
+          ],
+          [
+            75.844564,
+            30.9072099
+          ],
+          [
+            75.8449375,
+            30.9073006
+          ],
+          [
+            75.8452956,
+            30.9073949
+          ],
+          [
+            75.8456522,
+            30.9075019
+          ],
+          [
+            75.8460355,
+            30.9075903
+          ],
+          [
+            75.8464115,
+            30.9076986
+          ],
+          [
+            75.8467634,
+            30.9077931
+          ],
+          [
+            75.8471286,
+            30.9078918
+          ],
+          [
+            75.847502,
+            30.9079999
+          ],
+          [
+            75.8478681,
+            30.9081027
+          ],
+          [
+            75.8482397,
+            30.9081966
+          ],
+          [
+            75.8486039,
+            30.9083012
+          ],
+          [
+            75.8489651,
+            30.9083959
+          ],
+          [
+            75.8493202,
+            30.9085022
+          ],
+          [
+            75.849706,
+            30.9085919
+          ],
+          [
+            75.8500737,
+            30.9087017
+          ],
+          [
+            75.8504304,
+            30.9088043
+          ],
+          [
+            75.8508001,
+            30.9088921
+          ],
+          [
+            75.8511584,
+            30.9090025
+          ],
+          [
+            75.8515362,
+            30.9091017
+          ],
+          [
+            75.8518901,
+            30.909203
+          ],
+          [
+            75.8522575,
+            30.9093026
+          ],
+          [
+            75.8526325,
+            30.9093921
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-A-SEG-01",
+        "observation_id": "SIM-A-02-001",
+        "name": "SIMULATION SIM-A-SEG-01",
+        "risk_level": "Normal",
+        "original_risk_level": "Low",
+        "risk_score": 15.0,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-A-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 1,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 29,
+        "excluded_missing_score_observations": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-A-PASS-02:SIM-A-SEG-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8529985,
+            30.9095132
+          ],
+          [
+            75.8532706,
+            30.9096108
+          ],
+          [
+            75.8535283,
+            30.9097288
+          ],
+          [
+            75.8538056,
+            30.9098471
+          ],
+          [
+            75.8540705,
+            30.9099662
+          ],
+          [
+            75.8543284,
+            30.9100803
+          ],
+          [
+            75.8545905,
+            30.910207
+          ],
+          [
+            75.8548487,
+            30.9103244
+          ],
+          [
+            75.85513,
+            30.910435
+          ],
+          [
+            75.8553955,
+            30.9105508
+          ],
+          [
+            75.855666,
+            30.9106671
+          ],
+          [
+            75.8559235,
+            30.9107784
+          ],
+          [
+            75.856202,
+            30.9109036
+          ],
+          [
+            75.8564845,
+            30.9110207
+          ],
+          [
+            75.8567252,
+            30.9111391
+          ],
+          [
+            75.8569892,
+            30.9112428
+          ],
+          [
+            75.8572751,
+            30.9113631
+          ],
+          [
+            75.8575313,
+            30.9114784
+          ],
+          [
+            75.8577999,
+            30.9116049
+          ],
+          [
+            75.858062,
+            30.9117244
+          ],
+          [
+            75.8583328,
+            30.9118354
+          ],
+          [
+            75.8586119,
+            30.9119497
+          ],
+          [
+            75.8588679,
+            30.9120655
+          ],
+          [
+            75.8591317,
+            30.9121844
+          ],
+          [
+            75.8594003,
+            30.9122984
+          ],
+          [
+            75.8596623,
+            30.9124158
+          ],
+          [
+            75.8599327,
+            30.912533
+          ],
+          [
+            75.8602022,
+            30.9126547
+          ],
+          [
+            75.8604682,
+            30.9127772
+          ],
+          [
+            75.8607433,
+            30.9128792
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-A-SEG-02",
+        "observation_id": "SIM-A-02-034",
+        "name": "SIMULATION SIM-A-SEG-02",
+        "risk_level": "Moderate",
+        "original_risk_level": "Moderate",
+        "risk_score": 41.7,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-A-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-A-PASS-02:SIM-A-SEG-03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.86101,
+            30.9129955
+          ],
+          [
+            75.8613103,
+            30.9130946
+          ],
+          [
+            75.8616215,
+            30.9131772
+          ],
+          [
+            75.8619216,
+            30.913277
+          ],
+          [
+            75.8622417,
+            30.91336
+          ],
+          [
+            75.8625501,
+            30.9134511
+          ],
+          [
+            75.8628588,
+            30.9135342
+          ],
+          [
+            75.8631673,
+            30.9136461
+          ],
+          [
+            75.8634857,
+            30.9137204
+          ],
+          [
+            75.8637916,
+            30.9138162
+          ],
+          [
+            75.8640998,
+            30.9138959
+          ],
+          [
+            75.8644103,
+            30.913986
+          ],
+          [
+            75.8647217,
+            30.9140727
+          ],
+          [
+            75.8650336,
+            30.9141624
+          ],
+          [
+            75.8653383,
+            30.9142627
+          ],
+          [
+            75.8656442,
+            30.9143447
+          ],
+          [
+            75.8659537,
+            30.9144389
+          ],
+          [
+            75.8662618,
+            30.9145309
+          ],
+          [
+            75.8665746,
+            30.9146191
+          ],
+          [
+            75.8668931,
+            30.9147072
+          ],
+          [
+            75.8672025,
+            30.9148023
+          ],
+          [
+            75.8675087,
+            30.9148899
+          ],
+          [
+            75.8678243,
+            30.9149779
+          ],
+          [
+            75.8681235,
+            30.9150646
+          ],
+          [
+            75.868448,
+            30.9151552
+          ],
+          [
+            75.86874,
+            30.9152472
+          ],
+          [
+            75.8690679,
+            30.915334
+          ],
+          [
+            75.8693672,
+            30.9154271
+          ],
+          [
+            75.8696929,
+            30.9155227
+          ],
+          [
+            75.8699881,
+            30.9156063
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-A-SEG-03",
+        "observation_id": "SIM-A-02-063",
+        "name": "SIMULATION SIM-A-SEG-03",
+        "risk_level": "Severe",
+        "original_risk_level": "High",
+        "risk_score": 50.45,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-A-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-A-PASS-02:SIM-A-SEG-04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8703004,
+            30.9157001
+          ],
+          [
+            75.8705067,
+            30.9158413
+          ],
+          [
+            75.8707216,
+            30.9159845
+          ],
+          [
+            75.8709333,
+            30.9161292
+          ],
+          [
+            75.8711553,
+            30.9162825
+          ],
+          [
+            75.8713671,
+            30.9164141
+          ],
+          [
+            75.8715761,
+            30.9165605
+          ],
+          [
+            75.8717956,
+            30.9166994
+          ],
+          [
+            75.8720072,
+            30.9168418
+          ],
+          [
+            75.8722083,
+            30.9169898
+          ],
+          [
+            75.8724319,
+            30.917122
+          ],
+          [
+            75.872646,
+            30.9172736
+          ],
+          [
+            75.8728599,
+            30.9174256
+          ],
+          [
+            75.8730876,
+            30.9175707
+          ],
+          [
+            75.8732921,
+            30.9177051
+          ],
+          [
+            75.8735116,
+            30.9178481
+          ],
+          [
+            75.8737178,
+            30.9179945
+          ],
+          [
+            75.8739298,
+            30.9181316
+          ],
+          [
+            75.8741455,
+            30.9182798
+          ],
+          [
+            75.8743568,
+            30.9184208
+          ],
+          [
+            75.8745621,
+            30.9185656
+          ],
+          [
+            75.8747725,
+            30.9187156
+          ],
+          [
+            75.8749843,
+            30.9188486
+          ],
+          [
+            75.8752059,
+            30.9190002
+          ],
+          [
+            75.8754173,
+            30.9191378
+          ],
+          [
+            75.8756324,
+            30.9192887
+          ],
+          [
+            75.8758462,
+            30.9194198
+          ],
+          [
+            75.8760616,
+            30.9195731
+          ],
+          [
+            75.8762754,
+            30.9197126
+          ],
+          [
+            75.8764837,
+            30.9198607
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-A-SEG-04",
+        "observation_id": "SIM-A-02-091",
+        "name": "SIMULATION SIM-A-SEG-04",
+        "risk_level": "Severe",
+        "original_risk_level": "Critical",
+        "risk_score": 75.1,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-A-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-A-PASS-02:SIM-A-SEG-05",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8767026,
+            30.920001
+          ],
+          [
+            75.8769531,
+            30.9200998
+          ],
+          [
+            75.8771799,
+            30.920193
+          ],
+          [
+            75.8774303,
+            30.9202957
+          ],
+          [
+            75.8776866,
+            30.9204048
+          ],
+          [
+            75.8779075,
+            30.9205083
+          ],
+          [
+            75.8781542,
+            30.9205986
+          ],
+          [
+            75.8784022,
+            30.9207027
+          ],
+          [
+            75.8786468,
+            30.9208014
+          ],
+          [
+            75.8788926,
+            30.9209071
+          ],
+          [
+            75.8791337,
+            30.921003
+          ],
+          [
+            75.8793846,
+            30.9210927
+          ],
+          [
+            75.879633,
+            30.9212015
+          ],
+          [
+            75.8798633,
+            30.9213034
+          ],
+          [
+            75.8801162,
+            30.9214077
+          ],
+          [
+            75.8803549,
+            30.9215015
+          ],
+          [
+            75.8805901,
+            30.9216055
+          ],
+          [
+            75.8808366,
+            30.9217025
+          ],
+          [
+            75.8810739,
+            30.9217976
+          ],
+          [
+            75.8813257,
+            30.9219037
+          ],
+          [
+            75.8815681,
+            30.922001
+          ],
+          [
+            75.8818048,
+            30.9220935
+          ],
+          [
+            75.8820492,
+            30.9221963
+          ],
+          [
+            75.882307,
+            30.9223046
+          ],
+          [
+            75.8825458,
+            30.9224004
+          ],
+          [
+            75.8827787,
+            30.9224965
+          ],
+          [
+            75.88302,
+            30.9225904
+          ],
+          [
+            75.8832628,
+            30.9227108
+          ],
+          [
+            75.8835118,
+            30.9227997
+          ],
+          [
+            75.8837548,
+            30.9228996
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-A-SEG-05",
+        "observation_id": "SIM-A-02-123",
+        "name": "SIMULATION SIM-A-SEG-05",
+        "risk_level": "Severe",
+        "original_risk_level": "Critical",
+        "risk_score": 88.95,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-A-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-B-PASS-02:SIM-B-SEG-01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8439998,
+            30.8902066
+          ],
+          [
+            75.8440298,
+            30.8904191
+          ],
+          [
+            75.8440563,
+            30.8906404
+          ],
+          [
+            75.8440856,
+            30.8908477
+          ],
+          [
+            75.8441163,
+            30.8910708
+          ],
+          [
+            75.8441531,
+            30.8912865
+          ],
+          [
+            75.8441865,
+            30.8914957
+          ],
+          [
+            75.8442128,
+            30.8917202
+          ],
+          [
+            75.8442304,
+            30.8919306
+          ],
+          [
+            75.8442607,
+            30.8921495
+          ],
+          [
+            75.8442964,
+            30.8923673
+          ],
+          [
+            75.8443369,
+            30.8925803
+          ],
+          [
+            75.8443653,
+            30.8928083
+          ],
+          [
+            75.844386,
+            30.8930161
+          ],
+          [
+            75.8444152,
+            30.893231
+          ],
+          [
+            75.8444476,
+            30.8934455
+          ],
+          [
+            75.8444879,
+            30.8936644
+          ],
+          [
+            75.8445019,
+            30.8938841
+          ],
+          [
+            75.8445373,
+            30.894093
+          ],
+          [
+            75.8445727,
+            30.8943219
+          ],
+          [
+            75.8445973,
+            30.894521
+          ],
+          [
+            75.8446316,
+            30.8947501
+          ],
+          [
+            75.8446654,
+            30.8949661
+          ],
+          [
+            75.8446894,
+            30.8951844
+          ],
+          [
+            75.8447131,
+            30.8953972
+          ],
+          [
+            75.8447465,
+            30.8956186
+          ],
+          [
+            75.844784,
+            30.8958278
+          ],
+          [
+            75.8448182,
+            30.8960538
+          ],
+          [
+            75.844852,
+            30.896266
+          ],
+          [
+            75.8448635,
+            30.8964836
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-B-SEG-01",
+        "observation_id": "SIM-B-02-003",
+        "name": "SIMULATION SIM-B-SEG-01",
+        "risk_level": "Severe",
+        "original_risk_level": "High",
+        "risk_score": 74.67,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-B-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 1,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 29,
+        "excluded_missing_score_observations": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-B-PASS-02:SIM-B-SEG-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8448968,
+            30.8966996
+          ],
+          [
+            75.8448805,
+            30.8969059
+          ],
+          [
+            75.8448579,
+            30.8971164
+          ],
+          [
+            75.8448269,
+            30.8973253
+          ],
+          [
+            75.8448095,
+            30.897535
+          ],
+          [
+            75.8447819,
+            30.8977522
+          ],
+          [
+            75.8447659,
+            30.8979602
+          ],
+          [
+            75.8447307,
+            30.8981688
+          ],
+          [
+            75.8447155,
+            30.8983782
+          ],
+          [
+            75.8446865,
+            30.8985815
+          ],
+          [
+            75.8446684,
+            30.8987933
+          ],
+          [
+            75.844639,
+            30.8990104
+          ],
+          [
+            75.8446198,
+            30.8992179
+          ],
+          [
+            75.8445955,
+            30.8994227
+          ],
+          [
+            75.844571,
+            30.8996393
+          ],
+          [
+            75.8445423,
+            30.8998539
+          ],
+          [
+            75.8445234,
+            30.9000606
+          ],
+          [
+            75.844498,
+            30.9002727
+          ],
+          [
+            75.8444804,
+            30.9004896
+          ],
+          [
+            75.8444744,
+            30.9006998
+          ],
+          [
+            75.8444365,
+            30.9008996
+          ],
+          [
+            75.8444106,
+            30.9011105
+          ],
+          [
+            75.8443873,
+            30.9013183
+          ],
+          [
+            75.8443599,
+            30.9015269
+          ],
+          [
+            75.8443481,
+            30.9017432
+          ],
+          [
+            75.8443077,
+            30.9019451
+          ],
+          [
+            75.8442921,
+            30.9021524
+          ],
+          [
+            75.8442674,
+            30.9023709
+          ],
+          [
+            75.8442465,
+            30.9025884
+          ],
+          [
+            75.8442333,
+            30.9027885
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-B-SEG-02",
+        "observation_id": "SIM-B-02-031",
+        "name": "SIMULATION SIM-B-SEG-02",
+        "risk_level": "Severe",
+        "original_risk_level": "High",
+        "risk_score": 52.67,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-B-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 1,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 29,
+        "excluded_missing_score_observations": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-B-PASS-02:SIM-B-SEG-03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8441983,
+            30.9029978
+          ],
+          [
+            75.8441742,
+            30.9031891
+          ],
+          [
+            75.8441451,
+            30.9033716
+          ],
+          [
+            75.8441181,
+            30.9035637
+          ],
+          [
+            75.8440981,
+            30.9037375
+          ],
+          [
+            75.8440662,
+            30.9039264
+          ],
+          [
+            75.8440419,
+            30.9041178
+          ],
+          [
+            75.8440228,
+            30.9043041
+          ],
+          [
+            75.8439938,
+            30.9045018
+          ],
+          [
+            75.8439605,
+            30.90468
+          ],
+          [
+            75.843931,
+            30.9048649
+          ],
+          [
+            75.8439172,
+            30.9050477
+          ],
+          [
+            75.8438808,
+            30.9052385
+          ],
+          [
+            75.8438531,
+            30.9054318
+          ],
+          [
+            75.8438284,
+            30.9056145
+          ],
+          [
+            75.8437936,
+            30.9057989
+          ],
+          [
+            75.8437749,
+            30.9059769
+          ],
+          [
+            75.8437493,
+            30.9061732
+          ],
+          [
+            75.8437263,
+            30.9063619
+          ],
+          [
+            75.8436961,
+            30.9065446
+          ],
+          [
+            75.8436813,
+            30.9067206
+          ],
+          [
+            75.8436511,
+            30.9069174
+          ],
+          [
+            75.8436196,
+            30.9071114
+          ],
+          [
+            75.8435977,
+            30.9072931
+          ],
+          [
+            75.8435596,
+            30.907482
+          ],
+          [
+            75.8435263,
+            30.9076655
+          ],
+          [
+            75.8435031,
+            30.9078584
+          ],
+          [
+            75.8434814,
+            30.9080532
+          ],
+          [
+            75.8434646,
+            30.9082245
+          ],
+          [
+            75.8434164,
+            30.9084152
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-B-SEG-03",
+        "observation_id": "SIM-B-02-061",
+        "name": "SIMULATION SIM-B-SEG-03",
+        "risk_level": "Normal",
+        "original_risk_level": "Low",
+        "risk_score": 15.0,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-B-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 2,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 28,
+        "excluded_missing_score_observations": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-B-PASS-02:SIM-B-SEG-04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8433945,
+            30.9086089
+          ],
+          [
+            75.8433402,
+            30.9087957
+          ],
+          [
+            75.8432878,
+            30.9089895
+          ],
+          [
+            75.8432391,
+            30.9091844
+          ],
+          [
+            75.8431814,
+            30.9093852
+          ],
+          [
+            75.8431394,
+            30.9095797
+          ],
+          [
+            75.8430799,
+            30.9097793
+          ],
+          [
+            75.8430261,
+            30.9099759
+          ],
+          [
+            75.8429698,
+            30.9101683
+          ],
+          [
+            75.8429344,
+            30.9103713
+          ],
+          [
+            75.8428695,
+            30.9105695
+          ],
+          [
+            75.8428144,
+            30.9107671
+          ],
+          [
+            75.8427582,
+            30.9109557
+          ],
+          [
+            75.8427185,
+            30.9111575
+          ],
+          [
+            75.8426514,
+            30.9113595
+          ],
+          [
+            75.8426058,
+            30.9115527
+          ],
+          [
+            75.8425433,
+            30.9117512
+          ],
+          [
+            75.842495,
+            30.9119408
+          ],
+          [
+            75.8424353,
+            30.9121445
+          ],
+          [
+            75.8423892,
+            30.9123342
+          ],
+          [
+            75.8423327,
+            30.9125359
+          ],
+          [
+            75.8422747,
+            30.9127276
+          ],
+          [
+            75.8422343,
+            30.9129386
+          ],
+          [
+            75.842165,
+            30.9131292
+          ],
+          [
+            75.8421195,
+            30.913323
+          ],
+          [
+            75.8420739,
+            30.9135126
+          ],
+          [
+            75.8420089,
+            30.9137158
+          ],
+          [
+            75.8419588,
+            30.9139083
+          ],
+          [
+            75.841916,
+            30.9140975
+          ],
+          [
+            75.8418498,
+            30.9143092
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-B-SEG-04",
+        "observation_id": "SIM-B-02-095",
+        "name": "SIMULATION SIM-B-SEG-04",
+        "risk_level": "Severe",
+        "original_risk_level": "Critical",
+        "risk_score": 88.5,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-B-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-B-PASS-02:SIM-B-SEG-05",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8417939,
+            30.9144975
+          ],
+          [
+            75.841714,
+            30.9147134
+          ],
+          [
+            75.8416336,
+            30.9149419
+          ],
+          [
+            75.8415523,
+            30.9151617
+          ],
+          [
+            75.841443,
+            30.9153768
+          ],
+          [
+            75.8413648,
+            30.9156003
+          ],
+          [
+            75.8412805,
+            30.9158192
+          ],
+          [
+            75.8411853,
+            30.9160358
+          ],
+          [
+            75.8411143,
+            30.9162565
+          ],
+          [
+            75.8410035,
+            30.9164771
+          ],
+          [
+            75.8409314,
+            30.9166962
+          ],
+          [
+            75.8408585,
+            30.9169137
+          ],
+          [
+            75.8407648,
+            30.9171347
+          ],
+          [
+            75.8406709,
+            30.9173682
+          ],
+          [
+            75.8405815,
+            30.9175752
+          ],
+          [
+            75.8404962,
+            30.9177985
+          ],
+          [
+            75.8404124,
+            30.9180177
+          ],
+          [
+            75.8403264,
+            30.9182422
+          ],
+          [
+            75.8402533,
+            30.9184583
+          ],
+          [
+            75.840165,
+            30.918676
+          ],
+          [
+            75.8400672,
+            30.9189004
+          ],
+          [
+            75.8399854,
+            30.9191158
+          ],
+          [
+            75.8398853,
+            30.9193314
+          ],
+          [
+            75.8397988,
+            30.9195613
+          ],
+          [
+            75.839729,
+            30.9197679
+          ],
+          [
+            75.8396329,
+            30.9199954
+          ],
+          [
+            75.8395501,
+            30.9202254
+          ],
+          [
+            75.8394537,
+            30.9204388
+          ],
+          [
+            75.8393792,
+            30.920655
+          ],
+          [
+            75.839288,
+            30.9208729
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-B-SEG-05",
+        "observation_id": "SIM-B-02-126",
+        "name": "SIMULATION SIM-B-SEG-05",
+        "risk_level": "Severe",
+        "original_risk_level": "High",
+        "risk_score": 73.71,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-B-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-B-PASS-02:SIM-B-SEG-06",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8392097,
+            30.9211081
+          ],
+          [
+            75.8391151,
+            30.9213287
+          ],
+          [
+            75.8390259,
+            30.9215468
+          ],
+          [
+            75.8389376,
+            30.9217676
+          ],
+          [
+            75.8388442,
+            30.9219957
+          ],
+          [
+            75.8387607,
+            30.9222086
+          ],
+          [
+            75.8386835,
+            30.9224428
+          ],
+          [
+            75.8385996,
+            30.9226602
+          ],
+          [
+            75.8385116,
+            30.9228882
+          ],
+          [
+            75.8384353,
+            30.9231124
+          ],
+          [
+            75.8383393,
+            30.9233274
+          ],
+          [
+            75.8382525,
+            30.9235512
+          ],
+          [
+            75.8381601,
+            30.9237831
+          ],
+          [
+            75.8380743,
+            30.9240003
+          ],
+          [
+            75.8379849,
+            30.9242216
+          ],
+          [
+            75.8379065,
+            30.924447
+          ],
+          [
+            75.837812,
+            30.9246723
+          ],
+          [
+            75.8377298,
+            30.9248967
+          ],
+          [
+            75.8376405,
+            30.9251198
+          ],
+          [
+            75.8375487,
+            30.9253427
+          ],
+          [
+            75.8374633,
+            30.9255716
+          ],
+          [
+            75.8373796,
+            30.9257944
+          ],
+          [
+            75.8372998,
+            30.9260096
+          ],
+          [
+            75.8372089,
+            30.9262335
+          ],
+          [
+            75.837108,
+            30.9264582
+          ],
+          [
+            75.8370294,
+            30.9266761
+          ],
+          [
+            75.8369531,
+            30.926909
+          ],
+          [
+            75.8368586,
+            30.927135
+          ],
+          [
+            75.8367691,
+            30.9273461
+          ],
+          [
+            75.8366884,
+            30.9275787
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-B-SEG-06",
+        "observation_id": "SIM-B-02-151",
+        "name": "SIMULATION SIM-B-SEG-06",
+        "risk_level": "Moderate",
+        "original_risk_level": "Moderate",
+        "risk_score": 47.64,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-B-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-C-PASS-02:SIM-C-SEG-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8265084,
+            30.8993931
+          ],
+          [
+            75.8268536,
+            30.8994429
+          ],
+          [
+            75.8271842,
+            30.8994894
+          ],
+          [
+            75.8275181,
+            30.8995329
+          ],
+          [
+            75.8278553,
+            30.8995758
+          ],
+          [
+            75.8281963,
+            30.8996172
+          ],
+          [
+            75.8285415,
+            30.8996602
+          ],
+          [
+            75.8288723,
+            30.8997073
+          ],
+          [
+            75.8292186,
+            30.899744
+          ],
+          [
+            75.8295609,
+            30.8997855
+          ],
+          [
+            75.8299062,
+            30.8998231
+          ],
+          [
+            75.8302394,
+            30.8998762
+          ],
+          [
+            75.8305738,
+            30.8999215
+          ],
+          [
+            75.8309241,
+            30.8999578
+          ],
+          [
+            75.8312582,
+            30.9000077
+          ],
+          [
+            75.8316018,
+            30.9000547
+          ],
+          [
+            75.8319375,
+            30.9000956
+          ],
+          [
+            75.8322889,
+            30.9001452
+          ],
+          [
+            75.8326178,
+            30.9001788
+          ],
+          [
+            75.8329641,
+            30.9002317
+          ],
+          [
+            75.8332954,
+            30.9002614
+          ],
+          [
+            75.8336348,
+            30.9003105
+          ],
+          [
+            75.8339765,
+            30.9003535
+          ],
+          [
+            75.8343298,
+            30.9004001
+          ],
+          [
+            75.8346508,
+            30.9004427
+          ],
+          [
+            75.8350012,
+            30.9004788
+          ],
+          [
+            75.8353334,
+            30.9005213
+          ],
+          [
+            75.8356841,
+            30.9005691
+          ],
+          [
+            75.8360252,
+            30.9006113
+          ],
+          [
+            75.836357,
+            30.9006637
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-C-SEG-02",
+        "observation_id": "SIM-C-02-031",
+        "name": "SIMULATION SIM-C-SEG-02",
+        "risk_level": "Normal",
+        "original_risk_level": "Low",
+        "risk_score": 15.0,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-C-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 3,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 27,
+        "excluded_missing_score_observations": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-C-PASS-02:SIM-C-SEG-03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.836696,
+            30.9006978
+          ],
+          [
+            75.8370818,
+            30.9007466
+          ],
+          [
+            75.8374682,
+            30.9007934
+          ],
+          [
+            75.8378563,
+            30.9008393
+          ],
+          [
+            75.8382308,
+            30.9008909
+          ],
+          [
+            75.8386155,
+            30.900942
+          ],
+          [
+            75.8390027,
+            30.9009834
+          ],
+          [
+            75.8393899,
+            30.9010347
+          ],
+          [
+            75.8397649,
+            30.9010673
+          ],
+          [
+            75.8401517,
+            30.9011156
+          ],
+          [
+            75.8405244,
+            30.9011588
+          ],
+          [
+            75.840912,
+            30.9012105
+          ],
+          [
+            75.8413062,
+            30.9012603
+          ],
+          [
+            75.8416876,
+            30.9013096
+          ],
+          [
+            75.8420663,
+            30.9013602
+          ],
+          [
+            75.8424509,
+            30.9013936
+          ],
+          [
+            75.8428336,
+            30.901447
+          ],
+          [
+            75.8432107,
+            30.9014877
+          ],
+          [
+            75.8435966,
+            30.9015339
+          ],
+          [
+            75.8439856,
+            30.901589
+          ],
+          [
+            75.8443626,
+            30.9016317
+          ],
+          [
+            75.844757,
+            30.901681
+          ],
+          [
+            75.8451341,
+            30.9017364
+          ],
+          [
+            75.8455132,
+            30.9017659
+          ],
+          [
+            75.8458968,
+            30.9018114
+          ],
+          [
+            75.846275,
+            30.9018599
+          ],
+          [
+            75.8466744,
+            30.9019182
+          ],
+          [
+            75.8470572,
+            30.9019694
+          ],
+          [
+            75.8474292,
+            30.9020047
+          ],
+          [
+            75.8478162,
+            30.9020543
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-C-SEG-03",
+        "observation_id": "SIM-C-02-062",
+        "name": "SIMULATION SIM-C-SEG-03",
+        "risk_level": "Severe",
+        "original_risk_level": "High",
+        "risk_score": 52.67,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-C-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 1,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 29,
+        "excluded_missing_score_observations": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-C-PASS-02:SIM-C-SEG-04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8482076,
+            30.9021045
+          ],
+          [
+            75.8486027,
+            30.9021739
+          ],
+          [
+            75.8490048,
+            30.9022352
+          ],
+          [
+            75.849428,
+            30.9023083
+          ],
+          [
+            75.8498178,
+            30.9023811
+          ],
+          [
+            75.850225,
+            30.9024506
+          ],
+          [
+            75.8506278,
+            30.9025156
+          ],
+          [
+            75.8510209,
+            30.9025979
+          ],
+          [
+            75.8514177,
+            30.9026676
+          ],
+          [
+            75.8518273,
+            30.9027348
+          ],
+          [
+            75.8522284,
+            30.902804
+          ],
+          [
+            75.8526373,
+            30.9028691
+          ],
+          [
+            75.8530393,
+            30.9029393
+          ],
+          [
+            75.8534538,
+            30.9030149
+          ],
+          [
+            75.8538375,
+            30.903081
+          ],
+          [
+            75.8542481,
+            30.9031494
+          ],
+          [
+            75.8546481,
+            30.9032302
+          ],
+          [
+            75.8550584,
+            30.9032947
+          ],
+          [
+            75.8554595,
+            30.9033582
+          ],
+          [
+            75.8558656,
+            30.9034303
+          ],
+          [
+            75.8562657,
+            30.9035004
+          ],
+          [
+            75.8566647,
+            30.9035643
+          ],
+          [
+            75.8570816,
+            30.9036362
+          ],
+          [
+            75.8574705,
+            30.9037155
+          ],
+          [
+            75.8578892,
+            30.9037739
+          ],
+          [
+            75.8582773,
+            30.9038516
+          ],
+          [
+            75.8586866,
+            30.9039202
+          ],
+          [
+            75.8590874,
+            30.9039924
+          ],
+          [
+            75.8594893,
+            30.9040616
+          ],
+          [
+            75.8598945,
+            30.9041321
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-C-SEG-04",
+        "observation_id": "SIM-C-02-092",
+        "name": "SIMULATION SIM-C-SEG-04",
+        "risk_level": "Moderate",
+        "original_risk_level": "Moderate",
+        "risk_score": 41.7,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-C-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-C-PASS-02:SIM-C-SEG-05",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.860295,
+            30.9042037
+          ],
+          [
+            75.8606725,
+            30.9042765
+          ],
+          [
+            75.8610417,
+            30.9043623
+          ],
+          [
+            75.8614213,
+            30.9044326
+          ],
+          [
+            75.8617883,
+            30.9045244
+          ],
+          [
+            75.8621632,
+            30.904599
+          ],
+          [
+            75.8625329,
+            30.9046764
+          ],
+          [
+            75.8629171,
+            30.9047562
+          ],
+          [
+            75.8632909,
+            30.9048364
+          ],
+          [
+            75.8636659,
+            30.9049225
+          ],
+          [
+            75.8640372,
+            30.9049928
+          ],
+          [
+            75.8643965,
+            30.905085
+          ],
+          [
+            75.8647829,
+            30.9051548
+          ],
+          [
+            75.8651501,
+            30.9052428
+          ],
+          [
+            75.8655258,
+            30.9053193
+          ],
+          [
+            75.8658926,
+            30.9053985
+          ],
+          [
+            75.8662658,
+            30.9054822
+          ],
+          [
+            75.8666473,
+            30.9055548
+          ],
+          [
+            75.8670099,
+            30.9056466
+          ],
+          [
+            75.8673932,
+            30.9057256
+          ],
+          [
+            75.8677635,
+            30.9057947
+          ],
+          [
+            75.8681289,
+            30.9058821
+          ],
+          [
+            75.8685248,
+            30.9059621
+          ],
+          [
+            75.8688916,
+            30.9060461
+          ],
+          [
+            75.869264,
+            30.9061225
+          ],
+          [
+            75.8696306,
+            30.9062024
+          ],
+          [
+            75.8700049,
+            30.9062888
+          ],
+          [
+            75.8703733,
+            30.9063697
+          ],
+          [
+            75.8707576,
+            30.9064372
+          ],
+          [
+            75.8711259,
+            30.9065258
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-C-SEG-05",
+        "observation_id": "SIM-C-02-121",
+        "name": "SIMULATION SIM-C-SEG-05",
+        "risk_level": "Severe",
+        "original_risk_level": "High",
+        "risk_score": 74.67,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-C-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-C-PASS-02:SIM-C-SEG-06",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8714944,
+            30.9066041
+          ],
+          [
+            75.8718172,
+            30.9066635
+          ],
+          [
+            75.8721354,
+            30.9067321
+          ],
+          [
+            75.8724525,
+            30.9067973
+          ],
+          [
+            75.872767,
+            30.9068557
+          ],
+          [
+            75.8730819,
+            30.9069141
+          ],
+          [
+            75.8733965,
+            30.9069807
+          ],
+          [
+            75.8737162,
+            30.9070424
+          ],
+          [
+            75.8740373,
+            30.9071108
+          ],
+          [
+            75.8743492,
+            30.907173
+          ],
+          [
+            75.8746669,
+            30.9072317
+          ],
+          [
+            75.8749844,
+            30.9072944
+          ],
+          [
+            75.8752942,
+            30.9073614
+          ],
+          [
+            75.8756114,
+            30.9074189
+          ],
+          [
+            75.875931,
+            30.9074888
+          ],
+          [
+            75.8762505,
+            30.9075499
+          ],
+          [
+            75.8765647,
+            30.9076065
+          ],
+          [
+            75.8768765,
+            30.9076789
+          ],
+          [
+            75.8771942,
+            30.9077423
+          ],
+          [
+            75.8775029,
+            30.9078052
+          ],
+          [
+            75.877833,
+            30.9078658
+          ],
+          [
+            75.8781569,
+            30.9079356
+          ],
+          [
+            75.878466,
+            30.9079882
+          ],
+          [
+            75.8787879,
+            30.9080477
+          ],
+          [
+            75.879094,
+            30.9081246
+          ],
+          [
+            75.8794195,
+            30.9081811
+          ],
+          [
+            75.8797352,
+            30.9082506
+          ],
+          [
+            75.8800486,
+            30.9083064
+          ],
+          [
+            75.8803729,
+            30.9083766
+          ],
+          [
+            75.8806853,
+            30.9084391
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-C-SEG-06",
+        "observation_id": "SIM-C-02-151",
+        "name": "SIMULATION SIM-C-SEG-06",
+        "risk_level": "Severe",
+        "original_risk_level": "Critical",
+        "risk_score": 88.95,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-C-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-D-PASS-02:SIM-D-SEG-01",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.820006,
+            30.9290021
+          ],
+          [
+            75.820354,
+            30.9288545
+          ],
+          [
+            75.8206955,
+            30.9287227
+          ],
+          [
+            75.8210439,
+            30.9285992
+          ],
+          [
+            75.8214011,
+            30.928441
+          ],
+          [
+            75.8217416,
+            30.928302
+          ],
+          [
+            75.8221067,
+            30.9281565
+          ],
+          [
+            75.822458,
+            30.9280211
+          ],
+          [
+            75.8228126,
+            30.9278731
+          ],
+          [
+            75.8231486,
+            30.9277442
+          ],
+          [
+            75.8234943,
+            30.9276045
+          ],
+          [
+            75.823851,
+            30.9274582
+          ],
+          [
+            75.8242029,
+            30.9273268
+          ],
+          [
+            75.8245553,
+            30.9271829
+          ],
+          [
+            75.8249009,
+            30.9270397
+          ],
+          [
+            75.8252497,
+            30.9268998
+          ],
+          [
+            75.8255965,
+            30.9267515
+          ],
+          [
+            75.8259479,
+            30.9266159
+          ],
+          [
+            75.8262898,
+            30.9264797
+          ],
+          [
+            75.8266524,
+            30.9263353
+          ],
+          [
+            75.8270001,
+            30.9262067
+          ],
+          [
+            75.8273518,
+            30.9260632
+          ],
+          [
+            75.8277057,
+            30.9259276
+          ],
+          [
+            75.8280364,
+            30.9257801
+          ],
+          [
+            75.8283932,
+            30.9256455
+          ],
+          [
+            75.8287404,
+            30.9255069
+          ],
+          [
+            75.829094,
+            30.9253667
+          ],
+          [
+            75.8294458,
+            30.9252283
+          ],
+          [
+            75.8297922,
+            30.9250836
+          ],
+          [
+            75.830156,
+            30.9249465
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-D-SEG-01",
+        "observation_id": "SIM-D-02-004",
+        "name": "SIMULATION SIM-D-SEG-01",
+        "risk_level": "Severe",
+        "original_risk_level": "Critical",
+        "risk_score": 75.1,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-D-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 1,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 29,
+        "excluded_missing_score_observations": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-D-PASS-02:SIM-D-SEG-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8304962,
+            30.9248066
+          ],
+          [
+            75.8308519,
+            30.9246397
+          ],
+          [
+            75.8312287,
+            30.9244846
+          ],
+          [
+            75.8315981,
+            30.9243158
+          ],
+          [
+            75.8319607,
+            30.9241437
+          ],
+          [
+            75.8323358,
+            30.9239815
+          ],
+          [
+            75.8326943,
+            30.9238195
+          ],
+          [
+            75.8330537,
+            30.9236527
+          ],
+          [
+            75.8334249,
+            30.9234929
+          ],
+          [
+            75.8338078,
+            30.9233446
+          ],
+          [
+            75.8341635,
+            30.9231682
+          ],
+          [
+            75.8345286,
+            30.9229976
+          ],
+          [
+            75.834901,
+            30.9228452
+          ],
+          [
+            75.8352687,
+            30.9226751
+          ],
+          [
+            75.8356356,
+            30.9225148
+          ],
+          [
+            75.8359945,
+            30.9223414
+          ],
+          [
+            75.8363708,
+            30.9221873
+          ],
+          [
+            75.8367229,
+            30.9220223
+          ],
+          [
+            75.8370995,
+            30.9218479
+          ],
+          [
+            75.8374694,
+            30.9216966
+          ],
+          [
+            75.8378328,
+            30.9215317
+          ],
+          [
+            75.8381931,
+            30.9213617
+          ],
+          [
+            75.8385653,
+            30.921208
+          ],
+          [
+            75.8389183,
+            30.9210468
+          ],
+          [
+            75.8393015,
+            30.9208854
+          ],
+          [
+            75.8396668,
+            30.9207185
+          ],
+          [
+            75.840031,
+            30.9205577
+          ],
+          [
+            75.8403964,
+            30.9203859
+          ],
+          [
+            75.8407768,
+            30.920228
+          ],
+          [
+            75.8411422,
+            30.920063
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-D-SEG-02",
+        "observation_id": "SIM-D-02-031",
+        "name": "SIMULATION SIM-D-SEG-02",
+        "risk_level": "Severe",
+        "original_risk_level": "Critical",
+        "risk_score": 88.95,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-D-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 1,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 29,
+        "excluded_missing_score_observations": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-D-PASS-02:SIM-D-SEG-03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.841502,
+            30.9199062
+          ],
+          [
+            75.8418536,
+            30.9197562
+          ],
+          [
+            75.8421907,
+            30.9196062
+          ],
+          [
+            75.842527,
+            30.919453
+          ],
+          [
+            75.8428928,
+            30.9193137
+          ],
+          [
+            75.8432352,
+            30.9191614
+          ],
+          [
+            75.8435805,
+            30.9190248
+          ],
+          [
+            75.8439282,
+            30.9188638
+          ],
+          [
+            75.8442696,
+            30.9187276
+          ],
+          [
+            75.8446193,
+            30.918574
+          ],
+          [
+            75.8449652,
+            30.9184392
+          ],
+          [
+            75.8453183,
+            30.9182907
+          ],
+          [
+            75.845663,
+            30.9181431
+          ],
+          [
+            75.8460088,
+            30.9179878
+          ],
+          [
+            75.8463525,
+            30.9178479
+          ],
+          [
+            75.8466959,
+            30.9176914
+          ],
+          [
+            75.8470505,
+            30.9175535
+          ],
+          [
+            75.8473848,
+            30.9174016
+          ],
+          [
+            75.8477442,
+            30.9172582
+          ],
+          [
+            75.848079,
+            30.9171124
+          ],
+          [
+            75.8484236,
+            30.9169617
+          ],
+          [
+            75.8487757,
+            30.9168208
+          ],
+          [
+            75.8491281,
+            30.9166716
+          ],
+          [
+            75.8494733,
+            30.9165251
+          ],
+          [
+            75.8498174,
+            30.9163854
+          ],
+          [
+            75.8501628,
+            30.9162337
+          ],
+          [
+            75.8505187,
+            30.916084
+          ],
+          [
+            75.8508661,
+            30.9159392
+          ],
+          [
+            75.8512052,
+            30.9157948
+          ],
+          [
+            75.8515557,
+            30.9156403
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-D-SEG-03",
+        "observation_id": "SIM-D-02-061",
+        "name": "SIMULATION SIM-D-SEG-03",
+        "risk_level": "Severe",
+        "original_risk_level": "High",
+        "risk_score": 74.67,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-D-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 1,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 29,
+        "excluded_missing_score_observations": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-D-PASS-02:SIM-D-SEG-04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8518957,
+            30.9154981
+          ],
+          [
+            75.8522185,
+            30.9153422
+          ],
+          [
+            75.8525441,
+            30.9152006
+          ],
+          [
+            75.8528616,
+            30.9150404
+          ],
+          [
+            75.8531783,
+            30.9148861
+          ],
+          [
+            75.8534996,
+            30.9147428
+          ],
+          [
+            75.8538229,
+            30.914582
+          ],
+          [
+            75.8541471,
+            30.9144271
+          ],
+          [
+            75.8544514,
+            30.9142708
+          ],
+          [
+            75.8547822,
+            30.9141313
+          ],
+          [
+            75.8550969,
+            30.9139683
+          ],
+          [
+            75.8554192,
+            30.9138093
+          ],
+          [
+            75.8557368,
+            30.9136649
+          ],
+          [
+            75.8560569,
+            30.913501
+          ],
+          [
+            75.8563782,
+            30.9133527
+          ],
+          [
+            75.8567058,
+            30.9131941
+          ],
+          [
+            75.8570238,
+            30.9130503
+          ],
+          [
+            75.8573382,
+            30.9128977
+          ],
+          [
+            75.8576513,
+            30.912748
+          ],
+          [
+            75.8579863,
+            30.9125897
+          ],
+          [
+            75.8582986,
+            30.9124241
+          ],
+          [
+            75.8586253,
+            30.9122749
+          ],
+          [
+            75.8589359,
+            30.9121274
+          ],
+          [
+            75.8592681,
+            30.9119764
+          ],
+          [
+            75.859573,
+            30.9118209
+          ],
+          [
+            75.8598986,
+            30.9116659
+          ],
+          [
+            75.8602147,
+            30.9115161
+          ],
+          [
+            75.8605369,
+            30.9113606
+          ],
+          [
+            75.8608619,
+            30.911209
+          ],
+          [
+            75.8611791,
+            30.9110582
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-D-SEG-04",
+        "observation_id": "SIM-D-02-091",
+        "name": "SIMULATION SIM-D-SEG-04",
+        "risk_level": "Normal",
+        "original_risk_level": "Low",
+        "risk_score": 15.0,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-D-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 2,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 28,
+        "excluded_missing_score_observations": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SIM-D-PASS-02:SIM-D-SEG-05",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            75.8614995,
+            30.9108997
+          ],
+          [
+            75.8618382,
+            30.9108103
+          ],
+          [
+            75.8621746,
+            30.9107092
+          ],
+          [
+            75.8625156,
+            30.9106202
+          ],
+          [
+            75.8628674,
+            30.910521
+          ],
+          [
+            75.8631902,
+            30.9104314
+          ],
+          [
+            75.8635455,
+            30.9103405
+          ],
+          [
+            75.8638757,
+            30.9102511
+          ],
+          [
+            75.8642072,
+            30.9101616
+          ],
+          [
+            75.8645549,
+            30.9100699
+          ],
+          [
+            75.8649166,
+            30.9099674
+          ],
+          [
+            75.8652428,
+            30.9098785
+          ],
+          [
+            75.8655915,
+            30.9097852
+          ],
+          [
+            75.8659231,
+            30.909695
+          ],
+          [
+            75.8662549,
+            30.9095904
+          ],
+          [
+            75.8666049,
+            30.9095094
+          ],
+          [
+            75.8669385,
+            30.9094024
+          ],
+          [
+            75.8672684,
+            30.9093123
+          ],
+          [
+            75.8676297,
+            30.9092224
+          ],
+          [
+            75.8679739,
+            30.9091231
+          ],
+          [
+            75.8682996,
+            30.9090352
+          ],
+          [
+            75.8686464,
+            30.9089382
+          ],
+          [
+            75.8689679,
+            30.9088454
+          ],
+          [
+            75.8693299,
+            30.9087589
+          ],
+          [
+            75.869656,
+            30.9086574
+          ],
+          [
+            75.870009,
+            30.9085752
+          ],
+          [
+            75.8703419,
+            30.9084702
+          ],
+          [
+            75.8706771,
+            30.9083736
+          ],
+          [
+            75.8710263,
+            30.9082857
+          ],
+          [
+            75.8713558,
+            30.9081988
+          ]
+        ]
+      },
+      "properties": {
+        "segment_id": "SIM-D-SEG-05",
+        "observation_id": "SIM-D-02-121",
+        "name": "SIMULATION SIM-D-SEG-05",
+        "risk_level": "Severe",
+        "original_risk_level": "High",
+        "risk_score": 50.45,
+        "source_mode": "synthetic_inputs_existing_objective2_rule_engine_NO_MODEL_INFERENCE",
+        "demo": true,
+        "run_id": "SIM-D-PASS-02",
+        "location_mode": "simulated_ludhiana_coordinates_NOT_GPS_FIX",
+        "geometry_source": "SIMULATED_STRaight_connectors_not_map_matched_or_surveyed",
+        "risk_method": "chosen_existing_scored_observation_near_segment_run_median",
+        "unassessed_count": 0,
+        "sample_count": 30,
+        "score_supporting_scored_observations": 30,
+        "excluded_missing_score_observations": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "RoadScope Ludhiana-area scored simulation handoff",
+  "dataset_status": "SYNTHETIC DEMO ONLY. No actual road journey was recorded for these observations.",
+  "original_source": "RoadScope_Ludhiana_Extended_SIMULATION.zip",
+  "generation_method": "Filtered the prior 1,440-row simulated fixture to its 1,228 existing scored rows. No risk values were fabricated or replaced in this filtering step.",
+  "excluded_rows_count": 212,
+  "excluded_reason": "No primary condition evidence in source fixture, so risk_score was blank",
+  "excluded_geometries": "3 latest-run and 6 all-run features had no scored observations in their matching segment/run, so were omitted rather than given a made-up score",
+  "scored_observation_count": 1228,
+  "sensor_rows": 1228,
+  "imu_samples": 12280,
+  "geometry_method": "Retained simulated straight-connector geometry and relinked each feature to one existing scored observation from same simulated run and segment; representative row has risk score closest to simulated segment/run median.",
+  "coordinates": "Invented plausible Ludhiana-area points. Not physically logged, not GPS fixes.",
+  "timestamps": "Invented scenario timestamps. Not physically acquired.",
+  "sensor_readings": "Invented scenario values. No ESP32 data was recorded in this output.",
+  "vision_predictions": "Scenario inputs, not outputs of trained YOLO11n on these observations.",
+  "imu_predictions": "Scenario inputs, not outputs of trained STRIDE RF on these observations.",
+  "roughness": "Simulated surrogate PPE proxy, not matched SmartRoadSense measurements.",
+  "weather": "Simulated contextual rainfall, not matched AgERA5 extracts.",
+  "risk_score": "Calculated from synthetic scenario inputs using existing Objective 2 rule engine, not calibrated road safety or crash likelihood.",
+  "fusion_test_accuracy": "Not evaluated: no independent labels or synchronized multimodal records.",
+  "geometries": "Not road-centerline mapped, surveyed or derived from verified OSM road geometries.",
+  "unassessed_handling": "212 unscored observations omitted from scored-only demo; original source retains them with blank risk_score.",
+  "legacy_csv": "19-column legacy CSV maps native Low to Normal and High/Critical to Severe; use exact 17-column CSV for native statuses.",
+  "model_validation": {
+    "YOLO11n_test_mAP50": 0.413,
+    "STRIDE_RF_test_accuracy": 0.607
+  },
+  "original_81_6_hybrid": "Preserved separately and unchanged. Not paired with the synthetic route."
+}

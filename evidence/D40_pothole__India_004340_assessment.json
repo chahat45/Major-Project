@@ -1,0 +1,64 @@
+{
+  "image": "D40_pothole__India_004340.jpg",
+  "image_source": "C:\\Users\\DELL\\Desktop\\Objective2_Demo_Inputs\\D40_pothole__India_004340.jpg",
+  "model_file": "C:\\Users\\DELL\\Desktop\\AIOT_YOLO_Results\\rdd_full_finetune\\weights\\best.pt",
+  "input_type": "single RDD2022 image without verified location or capture timestamp",
+  "inference_confidence_threshold": 0.25,
+  "detections": [
+    {
+      "class_id": 3,
+      "defect": "pothole",
+      "confidence": 0.38532,
+      "bbox_xyxy_pixels": [
+        0.0,
+        466.6,
+        446.5,
+        719.6
+      ]
+    },
+    {
+      "class_id": 3,
+      "defect": "pothole",
+      "confidence": 0.35237,
+      "bbox_xyxy_pixels": [
+        0.0,
+        496.5,
+        300.4,
+        720.0
+      ]
+    }
+  ],
+  "vision_only_condition_assessment": {
+    "status": "provisional_condition_assessment",
+    "risk_score": 88.0,
+    "risk_level": "Critical",
+    "core_condition_score": 88.0,
+    "rainfall_modifier_points": 0.0,
+    "source_weights_renormalized": {
+      "vision": 1.0
+    },
+    "evidence": {
+      "vision": {
+        "detections_above_confidence_0.25": [
+          {
+            "defect": "pothole",
+            "confidence": 0.38532
+          },
+          {
+            "defect": "pothole",
+            "confidence": 0.35237
+          }
+        ],
+        "condition_score": 88.0
+      }
+    },
+    "same_place_time_asserted": false,
+    "limitations": [
+      "Experimental, rule-based road-condition risk index; not an accident probability.",
+      "Risk-score anchors and weights are design assumptions, not calibrated against safety outcomes.",
+      "YOLO confidence is not defect depth, physical severity, or accident risk.",
+      "One road-evidence modality available; treat the assessment as partial.",
+      "No matched weather observation; no rainfall adjustment applied."
+    ]
+  }
+}
